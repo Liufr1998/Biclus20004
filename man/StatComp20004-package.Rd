@@ -1,6 +1,6 @@
-\name{Biclus20004-package}
-\alias{Biclus20004-package}
-\alias{Biclus20004}
+\name{StatComp20004-package}
+\alias{StatComp20004-package}
+\alias{StatComp20004}
 \docType{package}
 \title{
   Functions for generating biclustering

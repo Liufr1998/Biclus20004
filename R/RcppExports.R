@@ -13,6 +13,6 @@
 #' }
 #' @export
 CrwM <- function(sigma, x0, N) {
-    .Call('_Biclus20004_CrwM', PACKAGE = 'Biclus20004', sigma, x0, N)
+    .Call('_StatComp20004_CrwM', PACKAGE = 'StatComp20004', sigma, x0, N)
 }
 

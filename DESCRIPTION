@@ -1,4 +1,4 @@
-Package: Biclus20004
+Package: StatComp20004
 Type: Package
 Title: Functions for generating bicluster
 Version: 1.0
@@ -12,5 +12,5 @@ LinkingTo: Rcpp
 RoxygenNote: 7.1.1
 Encoding: UTF-8
 VignetteBuilder: knitr
-URL: https://github.com/Liufr1998/Biclus
-BugReports: https://github.com/Liufr1998/Biclus/issues
+URL: https://github.com/Liufr1998/StatComp20004
+BugReports: https://github.com/Liufr1998/StatComp20004/issues

@@ -7,7 +7,7 @@ using namespace Rcpp;
 
 // CrwM
 NumericVector CrwM(double sigma, double x0, int N);
-RcppExport SEXP _Biclus20004_CrwM(SEXP sigmaSEXP, SEXP x0SEXP, SEXP NSEXP) {
+RcppExport SEXP _StatComp20004_CrwM(SEXP sigmaSEXP, SEXP x0SEXP, SEXP NSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -20,11 +20,11 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_Biclus20004_CrwM", (DL_FUNC) &_Biclus20004_CrwM, 3},
+    {"_StatComp20004_CrwM", (DL_FUNC) &_StatComp20004_CrwM, 3},
     {NULL, NULL, 0}
 };
 
-RcppExport void R_init_Biclus20004(DllInfo *dll) {
+RcppExport void R_init_StatComp20004(DllInfo *dll) {
     R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
     R_useDynamicSymbols(dll, FALSE);
 }
